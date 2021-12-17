@@ -5,13 +5,10 @@
 	"description": "The fullstack application boilerplate for Adonisjs",
 	"main": "index.js",
 	"scripts": {
-		"start": "node server.js",
+		"start": "ENV_SILENT=true node server.js",
 		"test": "node ace test"
 	},
-	"keywords": [
-		"adonisjs",
-		"adonis-app"
-	],
+	"keywords": ["adonisjs", "adonis-app"],
 	"author": "",
 	"license": "UNLICENSED",
 	"private": true,
